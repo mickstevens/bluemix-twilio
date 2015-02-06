@@ -1,0 +1,5 @@
+applications:
+- services:
+  - Twilio-qh
+  name: twilio-bluemix
+  command: node app.js
