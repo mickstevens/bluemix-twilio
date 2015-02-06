@@ -5,8 +5,7 @@ By using IBM Bluemix and Twilio together you can quickly build and deploy applic
 ## Our Bluemix Foundation
 Before you begin, you'll need to [sign up for a free IBM Bluemix account](https://console.ng.bluemix.net/). Once you've signed up, you'll want to create a new application using the Node.js web application template. Want some screenshots to guide you through that process? I've got you covered!
 
-{{image}}
-{{caption - create a new application}}
+![Create a new application](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/createnewapp.png)
 
 {{image}}
 {{caption - choose "Web" for application type}}
