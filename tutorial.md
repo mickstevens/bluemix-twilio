@@ -6,23 +6,25 @@ By using IBM Bluemix and Twilio together you can quickly build and deploy applic
 Before you begin, you'll need to [sign up for a free IBM Bluemix account](https://console.ng.bluemix.net/). Once you've signed up, you'll want to create a new application using the Node.js web application template. Want some screenshots to guide you through that process? I've got you covered!
 
 ![Create a new application](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/createnewapp.png)
+Create a new application
 
-{{image}}
-{{caption - choose "Web" for application type}}
+![Choose "Web" for application type](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/webapp.png)
+Choose "Web" for application type
 
-{{image}}
-{{caption - use the Node.js Starter template}}
+![Use the Node.js Starter template](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/starterkit.png)
+Use the Node.js Starter template
 
-Name your application something unique. Now that your application is created, let’s add the Twilio service. [Twilio](http://) enables phones, VoIP and messaging to be embedded into web, desktop, and mobile software. We’ll be using Twilio to send our text message later on. Select “Add Service” and pick Twilio. Not sure how to do this? Let’s take a look at some more screenshots:
+Name your application something unique. Now that your application is created, let’s add the Twilio service. [Twilio](http://twilio.com) enables phones, VoIP and messaging to be embedded into web, desktop, and mobile software. We’ll be using Twilio to send our text message later on. Select “Add Service” and pick Twilio. Not sure how to do this? Let’s take a look at some more screenshots:
 
-{{image}}
-{{caption - click "Add a Service"}}
+![Click "Add a Service"](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/addservice.png)
+Click "Add a Service"
 
-{{image}}
-{{caption - choose Twilio from the list of services under the "mobile" heading}}
+![Choose Twilio from the list of services under the "mobile" heading](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/twilioservice.png)
+Choose Twilio from the list of services under the "mobile" heading
 
-{{image}}
-{{caption - enter your account SID and auth token [from your dashboard](https://www.twilio.com/user/account) - make sure to note what you've called the service! It's called "Twilio-qh" in this example.}}
+![Enter your account SID and auth token](https://raw.githubusercontent.com/rickyrobinett/bluemix-twilio/master/images/twilioconfig.png)
+Enter your account SID and auth token [from your dashboard](https://www.twilio.com/user/account) - make su
+re to note what you've called the service! It's called "Twilio-qh" in this example.
 
 If you don’t already have a Twilio account you can [sign up for free](https://www.twilio.com/try-twilio).
 
